@@ -1,0 +1,4 @@
+1. Create .gitattributes.
+2. Add file name to preserve when merging in .gitattributes. [ test.txt merge=ours  ]
+3. run git config --global merge.ours.driver true
+
